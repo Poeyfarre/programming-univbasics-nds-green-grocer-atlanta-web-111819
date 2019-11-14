@@ -30,6 +30,7 @@ def consolidate_cart(cart)
       cart[row_index][:count] = 1 
       result << cart[row_index]
   end
+  row_index += 1 
 end
   
   # Consult README for inputs and outputs
