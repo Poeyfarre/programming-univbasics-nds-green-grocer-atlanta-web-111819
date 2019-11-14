@@ -1,4 +1,15 @@
 def find_item_by_name_in_collection(name, collection)
+  row_index = 0 
+  item = {}
+  
+  while row_index < collection.length Don
+  if name == collection[row_index][:item]
+    item = collection[row_index]
+  else
+    item << nil
+end
+row_index += 1 
+end
   # Implement me first!
   #
   # Consult README for inputs and outputs
