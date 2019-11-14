@@ -49,9 +49,10 @@ def apply_coupons(cart, coupons)
     item_basket != item_coupon 
     apply_coupon = item_basket && item_coupon[:count] >= new_coupon[:num]
     
-    if item_basket & apply_coupon
-      app
+    if item_basket && apply_coupon
+      app_cart(item_coupon, new_coupon, cart)
   end
+  row_index += 1 
   end
   # Consult README for inputs and outputs
   #
