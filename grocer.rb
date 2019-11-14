@@ -54,6 +54,7 @@ def apply_coupons(cart, coupons)
   end
   row_index += 1 
   end
+  cart
   # Consult README for inputs and outputs
   #
   # REMEMBER: This method **should** update cart
