@@ -48,6 +48,10 @@ def apply_coupons(cart, coupons)
     item_coupon = find_item_by_name_in_collection(new_coupon[:item], cart)
     item_basket != item_coupon 
     apply_coupon = item_basket && item_coupon[:count] >= new_coupon[:num]
+    
+    if item_basket & apply_coupon
+      app
+  end
   end
   # Consult README for inputs and outputs
   #
