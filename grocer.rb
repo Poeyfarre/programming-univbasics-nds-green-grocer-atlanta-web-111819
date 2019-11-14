@@ -41,6 +41,13 @@ result
 end
 
 def apply_coupons(cart, coupons)
+  row_index = 0 
+  
+  while row_index < coupons.length do
+    new_coupon = coupons[row_index]
+    item_coupon = find_item_by_name_in_collection(new_coupon[:item], cart)
+    item_basket != item_coupon 
+  end
   # Consult README for inputs and outputs
   #
   # REMEMBER: This method **should** update cart
