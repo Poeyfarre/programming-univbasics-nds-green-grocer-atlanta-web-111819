@@ -10,6 +10,7 @@ def find_item_by_name_in_collection(name, collection)
 end
 row_index += 1 
 end
+item
   # Implement me first!
   #
   # Consult README for inputs and outputs
